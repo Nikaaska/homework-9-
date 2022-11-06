@@ -39,50 +39,60 @@ li {
   font-size: 30px;
 }
 
-@media (max-width: 773px) {
-  li {
-    font-size: 15px;
-  }
+.myheader {
+  width: 90%;
 }
 
-@media (max-width: 620px) {
-  nav {
-    display: none;
-  }
-  .burger {
-    margin-left: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: grey;
-  }
-
-  .myheader {
-    width: 90%;
-  }
+.bigbox {
+  display: flex;
+  justify-content: space-between;
 }
 
-.size {
-  margin-top: 20px;
-  width: 250px;
+.infobox {
+  width: 200px;
+  margin-top: 50px;
+  margin-left: 56px;
 }
 
-.pictures {
-  margin-top: 20px;
+h3 {
+  font-size: 15;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.infobox > h2 {
+  font-size: 15.998350143432617;
+  color: #1a1a1b;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 14px;
+  color: cadetblue;
+}
+
+.cardbox {
+  width: 850px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
-@media (max-width: 1010px) {
-  .size {
-    width: 350px;
-  }
+.card {
+  width: 245px;
+  margin-top: 50px;
 }
 
-@media (max-width: 706px) {
-  .size {
-    width: 450px;
-  }
+.size {
+  width: 100%;
+}
+
+h2 {
+  font-size: 17px;
+}
+
+h4 {
+  font-size: 15px;
 }
